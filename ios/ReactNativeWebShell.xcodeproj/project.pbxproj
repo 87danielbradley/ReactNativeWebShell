@@ -275,7 +275,6 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cofchrist.spectacular.--PRODUCT-NAME-rfc1034identifier-";
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = org.cofchrist.spectacular;
 				PRODUCT_NAME = ReactNativeWebShell;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -305,7 +304,6 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cofchrist.spectacular.--PRODUCT-NAME-rfc1034identifier-";
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = org.cofchrist.spectacular;
 				PRODUCT_NAME = ReactNativeWebShell;
 				SWIFT_VERSION = 5.0;
