@@ -6,7 +6,6 @@ import { WebView } from 'react-native-webview';
 export const App = () => {
   return (
     <SafeAreaView style={styles.container}>
-      test
       <WebView source={{ uri: 'https://spectacular-ui.vercel.app/' }} />
     </SafeAreaView>
   );
