@@ -275,7 +275,7 @@
 				DEVELOPMENT_TEAM = 785Z3ZQY58;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ReactNativeWebShell/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -287,7 +287,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = org.cofchrist.spectacular;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cofchrist.spectacular;
 				PRODUCT_NAME = ReactNativeWebShell;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -305,7 +305,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 785Z3ZQY58;
 				INFOPLIST_FILE = ReactNativeWebShell/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -317,7 +317,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = org.cofchrist.spectacular;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cofchrist.spectacular;
 				PRODUCT_NAME = ReactNativeWebShell;
 				SWIFT_VERSION = 5.0;
 				USE_HERMES = false;
@@ -398,7 +398,7 @@
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
-				USE_HERMES = true;
+				USE_HERMES = false;
 			};
 			name = Debug;
 		};
@@ -466,7 +466,7 @@
 				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
-				USE_HERMES = true;
+				USE_HERMES = false;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
